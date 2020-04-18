@@ -1,0 +1,35 @@
+{% extends 'base.html'%}
+
+{% block contain%}
+
+
+
+    <table class="table table-striped table-dark">
+  <thead>
+    <tr>
+          <th scope="col">#</th>
+          <th scope="col">Course Code</th>
+          <th scope="col">Course title</th>
+          <th scope="col">Date</th>
+          <th scope="col">Time</th>
+        <th scope="col">Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for q in Presentations %}
+     {% if Date <= q.date %}
+    <tr>
+      <th scope="row">1</th>
+      <td>{{q.courseCode}}</td>
+      <td>{{q.courseTitle}}</td>
+        <td>{{q.date}}</td>
+       <td>{{q.time}}</td>
+        <td>{{q.comment}}</td>
+    </tr>
+  {% endif %}
+  {% endfor %}
+  </tbody>
+</table>
+
+
+{% endblock %}

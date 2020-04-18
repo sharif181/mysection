@@ -1,0 +1,45 @@
+{% extends 'base.html'%}
+
+{% block contain%}
+<div class="container">
+    <h1 style="color:Blue" align="center">Announcement</h1>
+    <div class="contain" style="color:red;">
+        {% for a in As%}
+            {% if date <= a.stay%}
+                <div class="contain">
+                    <h1 align="center">{{a.desc}}</h1>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+</div>
+<br>
+<div class="container">
+    <h1 style="color:Blue" align="center">Next To Do</h1>
+    <div class="contain">
+        <table class="table table-striped table-dark">
+              <thead>
+                <tr>
+                      <th scope="col">Quiz</th>
+                      <th scope="col">Presentation</th>
+                      <th scope="col">Assignment</th>
+                </tr>
+              </thead>
+              <tbody>
+
+    <tr>
+        <td>{{qc}}</td>
+        <td>{{pc}}</td>
+        <td>{{ac}}</td>
+
+    </tr>
+
+  </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+{% endblock %}
