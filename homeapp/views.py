@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from .models import quiz,presentation,assignment,Announcement
 from datetime import date
+from gtts import gTTS
+import os
 
 def index(request):
     quc=0
@@ -40,3 +42,10 @@ def Assignment(request):
     assignments = assignment.objects.all()
     Date = date.today()
     return render(request, 'assignment.html', {'assignments': assignments, 'Date': Date})
+
+
+
+def routine(request):
+
+    return render(request,'routine.html')
+

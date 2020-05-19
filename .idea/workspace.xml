@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="616e51ec-ab1c-44f9-af06-777460848320" name="Default Changelist" comment="" />
+    <list default="true" id="616e51ec-ab1c-44f9-af06-777460848320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/homeapp/migrations/0008_auto_20200518_1404.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/migrations/0002_auto_20200518_1404.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routine/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/routine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/homeapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/section/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/section/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +33,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1afO9GBxDdi9e9lFsIWp0dN882o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -45,5 +74,21 @@
       <updated>1587123028256</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
